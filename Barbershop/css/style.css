@@ -234,6 +234,10 @@ footer {
 	padding-top:10px;
 	text-align:center;
 }
+footer a:hover{
+	font-size:1.4em;
+	line-height:1;
+}
 /*style of the page "price"*/
 
 .header_column_price{
@@ -377,4 +381,84 @@ footer {
 	height:40px;
 	margin-top:50px;
 }
-
+#select_button{
+	background-color:#B299C0;
+}
+.chop_column_bigger a:hover{
+	background-color:#594D60;
+	color:white;
+	padding:8px;
+}
+.chop_column_less input[type=radio], input[type=checkbox]{
+	transform: scale(2);
+    -ms-transform: scale(2);
+    -webkit-transform: scale(2);
+    padding: 10px;
+	margin:10px;
+}
+.chop_product_two_column{
+	width:43%;
+	margin-left:5%;
+	float:left;
+	
+}
+#baxter_big{
+	border-width:1px;
+	border-style: solid;
+	line-height:0.5;
+	border-color:#BFBDB8;
+}
+.chop_product_two_column img{
+	width:95.1%;
+	margin-left:2.4%;
+	margin-top:10px;
+}
+.chop_product_three_column img {
+	width:30%;
+	margin-left:2.4%;
+	margin-bottom:30px;
+	background-color:white;
+	float:left;
+	border-width:1px;
+	border-style: solid;
+	line-height:0.5;
+	border-color:#BFBDB8;
+	min-height:180px;
+}
+.details_of_product_right{
+	float:right;
+	color:#625E64;
+}
+.details_of_product_left{
+	float:left;
+}
+.details_info{
+	padding:20px;
+	line-height:1.6;
+}
+.details_price, .price_buy input{
+	width:35%;
+	height:40px;
+	float-left:13%;
+	font-size:1.3em;
+	text-align:center;
+	margin-bottom:40px;
+	margin-top:40px;
+}
+.details_price{
+	background-color:#C4C4C4;
+	color:black;
+	float:left;
+}
+.price_buy input{
+	background-color:black;
+	color:white;
+	float:right;	
+}
+.goods_include{
+	font-size:1.4em;
+	color:black;
+	width:100%;
+	float:left;
+	margin-bottom:40px;
+}
